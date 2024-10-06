@@ -1,5 +1,5 @@
+import 'package:expenseaccount/views/sign_up_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebaseauth/views/sign_up_view.dart';
 import 'package:flutter/material.dart';
 
 import '../widget/custom_text.dart';
