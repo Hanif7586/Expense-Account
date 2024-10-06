@@ -1,16 +1,16 @@
-# firebasetagf
+# Expense-Account
 
-A new Flutter project.
+To implement features such as signup, signin, Gmail verification, profile management, and task addition in your Expense-Account project, here’s a structured approach you can follow:
 
-## Getting Started
+1. User Authentication (Signup/Signin)
+Signup:
 
-This project is a starting point for a Flutter application.
+Use Firebase Authentication to allow users to sign up with their email and password.
+Signin:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Implement sign-in functionality to allow users to log in using their credentials.
+ Gmail Verification
+After signing up, send a verification email to the user's Gmail.
+Store user profile information (name, email, etc.) in Firebase Firestore after signup.
+ Adding Expense Tasks
+Create a form where users can add their expense tasks, which includes fields like title, amount,price and date.
